@@ -1,0 +1,292 @@
+/* Inicio do CSS do Header */
+.caixa {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.Stickyheader{
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    height: 100vh;
+    position: relative; 
+}
+.container{    
+    background: url('../img/Blockchain-Coding-2.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+    padding-bottom: 2rem;
+}
+
+.bloco-home{
+    position: relative;
+    padding-top: 2vh;
+    text-align: center;
+    color: white;
+}
+.img-fluid img{
+    display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	padding: 30px 20px;
+	border-radius: 300px;
+}
+
+.nome-home h1{
+    font-family: Roboto Slab;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+.sociais-home li{
+    display: inline-block;
+    align-items: baseline;
+    margin: 10px;
+}
+
+.facebook-home{
+    content: '';
+}
+.instagram-home{
+    content: '';
+}
+.linkedin-home{
+    content: '';
+} 
+.whatsapp-home{
+    content: '';
+} 
+.skype-home{
+    content: '';
+} 
+.github-home{
+    content: '';
+} 
+.email-home{
+    content: '';
+}
+
+
+.facebook-home:hover, 
+.instagram-home:hover, 
+.linkedin-home:hover, 
+.whatsapp-home:hover, 
+.skype-home:hover, 
+.github-home:hover, 
+.email-home:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bloco-amarelo-home{
+    display: block;
+    margin: 2rem;
+    background-color: rgb(255, 223, 42);
+    font-size: 24px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+
+.quem-sou-home{
+    display: inline-block;
+    margin: 2rem;
+    background-color: blanchedalmond;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    width: 13%;
+    position: relative;
+}
+
+.texto-quem-sou-home p::before{
+    content: "🎓  ";
+}
+
+.texto-quem-sou-home{
+    text-transform: uppercase;
+}
+
+.baixar-cv-home{
+    display: inline-block;
+    margin: 2rem;
+    background-color: blanchedalmond;
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    width: 13%;
+    position: relative;
+}
+
+.texto-baixar-cv-home p::before{
+    content: "📝  ";
+}
+
+.texto-baixar-cv-home{
+    text-transform: uppercase;
+}
+
+.quem-sou-home:hover,
+.baixar-cv-home:hover{
+    transform: scale(1.2);
+    background-image: linear-gradient(blue, white);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+/* Fim do CSS do Header */
+
+
+
+
+/* Inicio do CSS do Main */
+.Stickybody{
+    background-image: linear-gradient(white, rgb(124, 124, 124));
+}
+
+.container-main{
+    content: '';
+}
+
+.bloco-portfolio{
+    position: relative;
+    padding-top: 2vh;
+    text-align: center;
+    color: black;
+}
+
+.texto-bloco-portfolio h2{
+    font-size: 32px;
+    padding-bottom: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.carrossel-portfolio{
+    content: '';
+}
+
+/* Secao carrossel */
+.slider{
+    overflow: hidden;
+}
+
+.slider > .slider-content{
+    display: flex;
+    position: relative;
+    flex-wrap: nowrap;
+    transition: all 500ms ease;
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}
+
+/* Fim secao carrossel */
+
+.colunas-main{
+    display: grid;
+    grid-template-areas:
+    "coluna 1"
+    "coluna 2";
+    grid-template-columns: 10% 20% 60% 10%;
+    grid-gap: 10%;
+}
+.coluna-1-main{
+    grid-area: coluna 1;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    height: 100%;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.titulo-de-interesse-main{
+    display: inline-flex;
+    vertical-align:top;
+    padding-top: 20px;
+    text-align: right;
+}
+
+.imagem-de-interesse-main{
+    background-image: url('../img/web-designer.jpg');
+    background-size: cover;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.titulo-de-interesse-main::before{
+    content: '';
+}
+.titulo-interesse-main h2{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.titulo-de-interesse-main h3{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+.lista-de-interesse-main li{
+    padding-bottom: 1rem;
+    font-size: 15px;
+    padding-left: 70px;
+}
+
+.lista-de-interesse-main li:first-child{
+    padding-top: 1rem;
+}
+
+.lista-de-interesse-main li::before{
+    content: '⦿  ';
+    vertical-align:top;
+}
+
+
+.coluna-2-main{
+    grid-area: coluna 2;
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-motivadores h3{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+
+
+
+
+/* Fim do CSS do Main */
