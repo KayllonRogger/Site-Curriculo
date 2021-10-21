@@ -16,7 +16,7 @@
 }
 
 .cabecalho{    
-    background: url('../Site-Curriculo/img/Blockchain-Coding-2.jpg') no-repeat;
+    background: url('../img/Blockchain-Coding-2.jpg') no-repeat;
     background-size: cover;
     background-position: top center;
     padding-bottom: 2rem;
@@ -70,6 +70,16 @@
     content: '';
 }
 
+.facebook-home, 
+.instagram-home, 
+.linkedin-home, 
+.whatsapp-home, 
+.skype-home, 
+.github-home, 
+.email-home{
+    transform: scale(1);
+    transition: 0.5s;
+}
 
 .facebook-home:hover, 
 .instagram-home:hover, 
@@ -385,7 +395,7 @@
     background-repeat: repeat-x;
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 600px){
     .cv-home{
         padding-left: 50%;
     }
@@ -408,8 +418,10 @@
     }
 
     #sociais-rodape, #mande-uma-mensagem-rodape{
-        display: block;
-        
+        display:block;
+        width: fit-content;
+        justify-content: center;
+        position: relative;
     }
 
 }
