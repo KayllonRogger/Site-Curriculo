@@ -1,121 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.scss">
   <link rel="stylesheet" href="normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
   <title>Kayllon Rogger - CURRICULO</title>
 </head>
+
 <body>
   <header class="StickyHeader">
-    <div class="container">
-          <div class="bloco-home">
-            <div class="img-fluid caixa">
-              <img src="../img/1560966990572.jpg" alt="Foto de perfil">
-            </div>
-            <div class="nome-home caixa">
-              <h1>Kayllon Rogger Nunes</h1>
-            </div>
-            <div class="sociais-home">
-              <ul>
-                <li>
-                  <div class="facebook-home caixa">
-                    <img src="../img/icons8-facebook-circled-48.png" alt="Icone Facebook">
-                  </div>
-                </li>
-                <li>
-                  <div class="instagram-home caixa">
-                    <img src="../img/icons8-instagram-48.png" alt="Icone Instagram">
-                  </div>
-                </li>
-                <li>
-                  <div class="linkedin-home caixa">
-                    <img src="../img/icons8-linkedin-circled-48.png" alt="Icone LinkedIn">
-                  </div>
-                </li>
-                <li>
-                  <div class="whatsapp-home caixa">
-                   <img src="../img/icons8-whatsapp-48.png" alt="Icone Whatsapp">
-                  </div>
-                </li>
-                <li>
-                  <div class="skype-home caixa">
-                    <img src="../img/icons8-skype-48.png" alt="Icone Skype">
-                  </div>
-                </li>
-                <li>
-                  <div class="email-home caixa">
-                    <img src="../img/iconemail.png" alt="Icone Email">
-                  </div>
-                </li>
-                <li>
-                  <div class="github-home caixa">
-                    <img src="../img/icons8-github-48.png" alt="Icone Github">
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="descricao-home caixa">
-              <div class="bloco-amarelo-home caixa">
-                <div class="texto-bloco-amarelo-home caixa">
-                  <p>Engenheiro eletricista graduado pela UFMG, especialista em Sistemas Elétricos de Potência, migrando de carreira!
-                  <br>Sempre à procura de novos desafios!</p>
+    <div class="cabecalho">
+      <div class="bloco-home">
+        <div class="img-fluid caixa">
+          <img src="../Site-Curriculo/img/1560966990572.jpg " alt="Foto de perfil">
+        </div>
+        <div class="nome-home caixa">
+          <h1>Kayllon Rogger Nunes</h1>
+        </div>
+        <div class="sociais-home">
+          <ul>
+            <li>
+              <a href="https://web.facebook.com/Kayllon.Rogger/" target="_blank">
+                <div class="facebook-home caixa">
+                  <img src="../Site-Curriculo/img/icons8-facebook-circled-48.png" alt="Icone Facebook">
                 </div>
-              </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kayllonrogger/" target="_blank">
+                <div class="instagram-home caixa">
+                  <img src="../Site-Curriculo/img/icons8-instagram-48.png" alt="Icone Instagram">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/kayllon/" target="_blank">
+                <div class="linkedin-home caixa">
+                  <img src="../Site-Curriculo/img/icons8-linkedin-circled-48.png" alt="Icone LinkedIn">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://api.whatsapp.com/send?phone=5531998012901&text=sua%20mensagem" target="_blank">
+                <div class="whatsapp-home caixa">
+                  <img src="../Site-Curriculo/img/icons8-whatsapp-48.png" alt="Icone Whatsapp">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://join.skype.com/invite/CSHtgeVz0Bqa" target="_blank">
+                <div class="skype-home caixa">
+                  <img src="../Site-Curriculo/img/icons8-skype-48.png" alt="Icone Skype">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:kayllonrogger@gmail.com">
+                <div class="email-home caixa">
+                  <img src="../Site-Curriculo/img/iconemail.png" alt="Icone Email">
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/KayllonRogger" target="_blank">
+                <div class="github-home caixa">
+                  <img src="../Site-Curriculo/img/icons8-github-48.png" alt="Icone Github">
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="descricao-home caixa">
+          <div class="bloco-amarelo-home caixa">
+            <div class="texto-bloco-amarelo-home caixa">
+              <p>Engenheiro eletricista graduado pela UFMG, especialista em Sistemas Elétricos de Potência, migrando de
+                carreira!
+                <br>Sempre à procura de novos desafios!
+              </p>
             </div>
-            <div class="cv-home">
-              <div class="quem-sou-home">
-                <div class="bloco-quem-sou-home">
-                  <div class="texto-quem-sou-home">
-                    <p>Quem sou eu</p>
-                  </div>
-                </div>
-              </div>
-              <div class="baixar-cv-home">
-                <div class="bloco-baixar-cv-home">
-                  <div class="texto-baixar-cv-home">
-                    <p>Baixar curriculo</p>
-                  </div>
-                </div>
+          </div>
+        </div>
+        <div id="cv-home">
+          <div class="quem-sou-home">
+            <div class="bloco-quem-sou-home">
+              <div class="texto-quem-sou-home">
+                <p>Quem sou eu</p>
               </div>
             </div>
           </div>
+          <div class="baixar-cv-home">
+            <a href="../Site-Curriculo/documents/Kayllon rogger nune_dev.pdf" target="_blank">
+              <div class="bloco-baixar-cv-home">
+                <div class="texto-baixar-cv-home">
+                  <p>Baixar curriculo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
   <main class="Stickybody">
-    <div class="container-main">
-      <div class="bloco-portfolio">
-        <div class="texto-bloco-portfolio">
+    <div class="container">
+      <div class="row" id="bloco-portfolio">
+        <div class="col" id="texto-bloco-portfolio">
           <h2>Portfólio</h2>
         </div>
-        <div class="carrossel-portfolio">
-          <section class="slider">
-            <input name='slide' type="radio" >
-            <input name='slide' type="radio" checked>
-            <input name='slide' type="radio">
-            <input name='slide' type="radio">
-          
-            <div class="slider-content">
-                <div class="slider-item"><img src="../img/C++.jpg" width="50%" height="50%"></div>
-                <div class="slider-item"><img src="../img/CSS.jpg" width="50%" height="50%"></div>
-                <div class="slider-item"><img src="../img/arduino.jpg" width="50%" height="50%"></div>
-                <div class="slider-item"><img src="../img/matlab.jpg" width="50%" height="50%"></div>
-            </div>
-          </section>
-        </div>
       </div>
-      <div class="colunas-main">
-        <div class="coluna-1-main">
-          <div class="titulo-interesse-main">
+
+      <!-- Inicio Divisao Carrossel -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../Site-Curriculo/img/CSS.jpg" alt="First slide" height="360px"
+              width="1200px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../Site-Curriculo/img/Cpp.jpg" alt="Second slide" height="360px"
+              width="1200px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../Site-Curriculo/img/arduino.jpg" alt="Third slide" height="360px"
+              width="1200px">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../Site-Curriculo/img/matlab.jpg" alt="Forth slide" height="360px"
+              width="1200px">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Fim Divisao Carrossel -->
+
+      <div class="row" id="colunas-main">
+        <div class="col" id="coluna-1-main">
+          <div id="titulo-interesse-main">
             <h2>Habilidades de Interesse</h2>
           </div>
-          <div class="imagem-de-interesse-main"></div>
+          <div class="imagem-de-interesse-main">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+              class="bi bi-file-code-fill" viewBox="0 0 16 16">
+              <path
+                d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 1 1 .708-.708z" />
+            </svg>
+          </div>
           <div class="titulo-de-interesse-main">
             <h3>Desenvolvedor Web</h3>
           </div>
@@ -124,9 +185,16 @@
               <li>HTML</li>
               <li>CSS</li>
               <li>Bootstrap</li>
+              <li>React</li>
             </ul>
           </div>
-          <div class="imagem-de-interesse-main"></div>
+          <div class="imagem-de-interesse-main">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-hammer"
+              viewBox="0 0 16 16">
+              <path
+                d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z" />
+            </svg>
+          </div>
           <div class="titulo-de-interesse-main">
             <h3>Hard Skills</h3>
           </div>
@@ -137,29 +205,171 @@
               <li>Embarcados</li>
             </ul>
           </div>
-          <div class="imagem-de-interesse-main"></div>
+          <div class="imagem-de-interesse-main">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill"
+              viewBox="0 0 16 16">
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+            </svg>
+          </div>
           <div class="titulo-de-interesse-main">
             <h3>Outros conhecimentos</h3>
           </div>
           <div class="lista-de-interesse-main">
             <ul>
               <li>Inglês Fluente</li>
-              <li>Alguma coisa</li>
-              <li>Outra coisa</li>
+              <li>Autocad</li>
+              <li>Pacote Office</li>
+              <li>MS Project</li>
             </ul>
           </div>
           <div class="titulo-projetos-main"></div>
           <div class="bloco-1-projetos-main"></div>
           <div class="bloco-2-projetos-main"></div>
         </div>
-        <div class="coluna-2-main">
+        <div class="col" id="coluna-2-main">
           <div class="titulo-motivadores">
-            <h3>Motivadores</h3>
+            <h2>Motivadores</h2>
+          </div>
+          <div class="row col" id="lista-de-motivadores">
+            <ul>
+              <li id="item-lista-de-motivadores">+ Novidades</li>
+              <li id="item-lista-de-motivadores">+ Criatividade</li>
+              <li id="item-lista-de-motivadores">+ Descobertas</li>
+              <li id="item-lista-de-motivadores">+ Feedback</li>
+              <li id="item-lista-de-motivadores">+ Flexibilidade</li>
+              <li id="item-lista-de-motivadores">+ Socialização</li>
+              <li id="item-lista-de-motivadores">- Rotinas</li>
+              <li id="item-lista-de-motivadores">- Monotonia</li>
+            </ul>
+          </div>
+          <div class="row col" id="experiencia">
+            <h2>Experiência</h2>
+          </div>
+          <div class="rol col" id="titulo-experiencia">
+            <h3>Desenvolvedor Frontend</h3>
+            <h4>Autônomo</h4>
+            <p>Desenvolvimento de sites e softwares de forma autônoma.</p>
+          </div>
+          <div class="rol col" id="titulo-experiencia">
+            <h3>Analista de Automação</h3>
+            <h4>Projexa Engenharia e Consultoria LTDA</h4>
+            <p>Análise de diagramas unifiliares de projetos eletromecânicos e lógicos de setores industriais e
+              subestações.
+              Comissionamento, parametrização e testes de relés de proteção (Siemens, Schneider, SEL, ABB) e
+              painéis elétricos com emissão de relatórios de aprovação.</p>
+          </div>
+          <div class="rol col" id="titulo-experiencia">
+            <h3>Técnico de Manutenção II</h3>
+            <h4>Cotesa Engenharia LTDA</h4>
+            <p>Manutenção preditiva, corretiva e preventiva em equipamentos de controle, automação e
+              transformação de subestações de extra alta tensão (500 kV) em conjunto com agente acessado e agente
+              acessante.
+              Atuação em emergências para garantir restabelecimento nos prazos regulatórios.
+              Abertura de processos de licitação para ordens de compra de produtos e serviços.
+              Atividades correlatas de gestão de manutenção de SE e LTs com PCM (programa de controle da manutenção –
+              Software EQM),
+              juntamente com elaboração de relatórios. </p>
+          </div>
+          <div class="rol col" id="titulo-experiencia">
+            <h3>Estagiário</h3>
+            <h4>Analógica Instrumentação e Controle LTDA</h4>
+            <p>Pesquisa e Desenvolvimento – P&D – Programa de Detecção de Vazamentos em Sistemas de Armazenamento
+              Subterrâneo
+              de Combustíveis, utilizando Sensores Acústicos</p>
+          </div>
+          <div class="row col" id="educacao">
+            <h2>Educação</h2>
+          </div>
+          <div class="row col" id="titulo-educacao">
+            <h3>Bacharelado em Engenharia Elétrica</h3>
+            <p>Univerisade Federal de Minas Gerais (08/2011 - 12/2018)</p>
+          </div>
+          <div class="row col" id="titulo-educacao">
+            <h3>Intercâmbio em Engenharia Elétrica</h3>
+            <p>Ohio Northern University (01/2014 - 05/2015)</p>
+          </div>
+          <div class="row col" id="titulo-educacao">
+            <h3>Certificado em Frontend</h3>
+            <p>Grupo Alura - AOVS Sistemas de Informática S.A (em curso)</p>
           </div>
         </div>
       </div>
     </div>
+    <div id="rodape">
+      <div class="container" id="container-rodape">
+        <div class="row">
+          <div class="col" id="sociais-rodape">
+            <h1>Encontre-me nas redes sociais</h1>
+            <ul>
+              <li>
+                <a href="https://web.facebook.com/Kayllon.Rogger/" target="_blank">
+                  <div class="facebook-rodape caixa">
+                    <img src="../Site-Curriculo/img/icons8-facebook-circled-48.png" alt="Icone Facebook">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/kayllonrogger/" target="_blank">
+                  <div class="instagram-rodape caixa">
+                    <img src="../Site-Curriculo/img/icons8-instagram-48.png" alt="Icone Instagram">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kayllon/" target="_blank">
+                  <div class="linkedin-rodape caixa">
+                    <img src="../Site-Curriculo/img/icons8-linkedin-circled-48.png" alt="Icone LinkedIn">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://api.whatsapp.com/send?phone=5531998012901&text=sua%20mensagem" target="_blank">
+                  <div class="whatsapp-rodape caixa">
+                    <img src="../Site-Curriculo/img/icons8-whatsapp-48.png" alt="Icone Whatsapp">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://join.skype.com/invite/CSHtgeVz0Bqa" target="_blank">
+                  <div class="skype-rodape caixa">
+                    <img src="../Site-Curriculo/img/icons8-skype-48.png" alt="Icone Skype">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:kayllonrogger@gmail.com">
+                  <div class="email-rodape caixa">
+                    <img src="../Site-Curriculo/img/iconemail.png" alt="Icone Email">
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/KayllonRogger" target="_blank">
+                  <div class="github-rodape caixa">
+                    <img src="../Site-Curriculo/img/icons8-github-48.png" alt="Icone Github">
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col " id="mande-uma-mensagem-rodape">
+            <h1>Mande uma mensagem</h1>
+
+            <div btn-group data-grouptype>
+              <a href="https://api.whatsapp.com/send?phone=5531998012901&text=sua%20mensagem">Whatsapp</a>
+              <a href="https://m.me/kayllonrogger">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
   </main>
-  
+  <footer>
+    <div id="footer">
+      2021 © kayllonrogger.com. Todos os direitos reservados
+    </div>
+  </footer>
 </body>
+
 </html>
